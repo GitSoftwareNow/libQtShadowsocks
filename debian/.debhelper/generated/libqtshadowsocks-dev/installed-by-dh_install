@@ -1,0 +1,7 @@
+debian/tmp/usr/include/QtShadowsocks/crypto
+debian/tmp/usr/include/QtShadowsocks/network
+debian/tmp/usr/include/QtShadowsocks/QtShadowsocks
+debian/tmp/usr/include/QtShadowsocks/types
+debian/tmp/usr/include/QtShadowsocks/util
+debian/tmp/usr/lib/aarch64-linux-gnu/libQtShadowsocks.so
+debian/tmp/usr/lib/aarch64-linux-gnu/pkgconfig

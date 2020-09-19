@@ -1,0 +1,5 @@
+libqtshadowsocks-dev_2.1.0-2_arm64.deb libdevel optional
+libqtshadowsocks2-dbgsym_2.1.0-2_arm64.deb debug optional automatic=yes
+libqtshadowsocks2_2.1.0-2_arm64.deb libs optional
+shadowsocks-libqtshadowsocks-dbgsym_2.1.0-2_arm64.deb debug optional automatic=yes
+shadowsocks-libqtshadowsocks_2.1.0-2_arm64.deb net optional

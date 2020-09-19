@@ -1,0 +1,13 @@
+Package: libqtshadowsocks2-dbgsym
+Source: libqtshadowsocks
+Version: 2.1.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Boyuan Yang <byang@debian.org>
+Installed-Size: 1873
+Depends: libqtshadowsocks2 (= 2.1.0-2)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libqtshadowsocks2
+Build-Ids: b3ab79d22a000ff103aa4e36a2e19f73fc36947b

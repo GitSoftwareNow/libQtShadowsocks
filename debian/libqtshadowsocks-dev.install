@@ -1,0 +1,3 @@
+usr/include/QtShadowsocks/*
+usr/lib/*/libQtShadowsocks.so
+usr/lib/*/pkgconfig

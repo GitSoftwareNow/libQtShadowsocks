@@ -1,0 +1,12 @@
+libqtshadowsocks (2.1.0-2) unstable; urgency=medium
+
+  * Rebuild against new Qt 5.11.1.
+  * Rebuild for pure source-only upload.
+
+ -- Boyuan Yang <byang@debian.org>  Fri, 14 Sep 2018 09:48:38 -0400
+
+libqtshadowsocks (2.1.0-1) unstable; urgency=medium
+
+  * Initial release. Closes: #887734
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 06 Sep 2018 15:13:48 -0400

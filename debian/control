@@ -1,0 +1,56 @@
+Source: libqtshadowsocks
+Section: libs
+Priority: optional
+Maintainer: Boyuan Yang <byang@debian.org>
+Uploaders:
+ Debian Bridges Team <team+bridges@tracker.debian.org>,
+ Roger Shimizu <rosh@debian.org>,
+Build-Depends:
+ cmake (>= 3.1.0),
+ debhelper (>= 11),
+ dh-exec,
+ libbotan-2-dev,
+ pkg-config,
+ qt5-qmake,
+ qtbase5-dev,
+Standards-Version: 4.2.1
+Homepage: https://github.com/shadowsocks/libQtShadowsocks
+Vcs-Git: https://salsa.debian.org/bridges-team/libqtshadowsocks.git
+Vcs-Browser: https://salsa.debian.org/bridges-team/libqtshadowsocks
+
+Package: libqtshadowsocks-dev
+Section: libdevel
+Architecture: any
+Depends:
+ libqtshadowsocks2 (= ${binary:Version}),
+ ${misc:Depends},
+Description: Development files of libQtShadowsocks
+ libQtShadowsocks provides a lightweight and fast implementation of
+ shadowsocks protocol. This library is written in C++ using Qt.
+ .
+ This package provides the development files.
+
+Package: libqtshadowsocks2
+Multi-Arch: same
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Lightweight and ultra-fast shadowsocks library written in C++/Qt
+ libQtShadowsocks provides a lightweight and fast implementation of
+ shadowsocks protocol. This library is written in C++ using Qt.
+ .
+ This package provides the library files.
+
+Package: shadowsocks-libqtshadowsocks
+Section: net
+Architecture: any
+Depends:
+ libqtshadowsocks2 (= ${binary:Version}),
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Another CLI shadowsocks client using libQtShadowsocks
+ libQtShadowsocks provides a lightweight and fast implementation of
+ shadowsocks protocol. This library is written in C++ using Qt.
+ .
+ This package provides a simple cli shadowsocks client.

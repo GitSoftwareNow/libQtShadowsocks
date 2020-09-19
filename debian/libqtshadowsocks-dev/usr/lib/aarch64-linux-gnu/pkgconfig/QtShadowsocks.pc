@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include/QtShadowsocks
+
+
+Name: QtShadowsocks
+Description: A lightweight and ultra-fast shadowsocks library written in C++/Qt
+Version: 2.1.0
+Libs: -L${libdir} -lQtShadowsocks
+Libs.private:  -lQt5Network -lQt5Core -lbotan-2
+Cflags: -I${includedir}
+
