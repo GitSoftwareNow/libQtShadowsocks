@@ -1,13 +1,13 @@
 sudo: required
 dist: trusty
-arch:
-    -amd64
-    -arm64
-    -ppc64
-    -s390
-    -mips64el
 language: cpp
 cache: apt
+arch:
+  - arm64 
+  - x86
+  - mip64el
+  - s390
+  - ppc64el
 addons:
   apt:
     sources:
