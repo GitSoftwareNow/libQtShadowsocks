@@ -4,9 +4,7 @@ language: cpp
 cache: apt
 arch:
   - arm64 
-  - x86
-  - mip64el
-  - s390
+  - amd64
   - ppc64el
 addons:
   apt:
