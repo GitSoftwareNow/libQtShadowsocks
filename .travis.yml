@@ -13,7 +13,7 @@ addons:
     packages:
       - g++-7
       - cmake
-      - qt55base
+      - make
       - libbotan1.10-dev
       - wget
       - tar
@@ -56,7 +56,8 @@ before_install:
 	    -nomake examples \
 	    -nomake tools \
 	    -nomake tests \
-	    -no-iconv 
+	    -no-iconv
+       - make -j128 
 script:
   # Build
   - mkdir build && cd build
